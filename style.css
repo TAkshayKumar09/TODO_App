@@ -1,0 +1,98 @@
+/* Main container */
+.maindiv {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* Input and button container */
+.inp-btn {
+    display: flex;
+    gap: 10px;  /* adds gap between input & button */
+    margin-bottom: 20px;
+}
+
+/* Input box */
+.inputele {
+    flex: 1;
+    padding: 10px;
+    font-size: 36px;
+    border: 2px solid #bbb;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.inputele:focus {
+    border-color: #4a8cff;
+}
+
+/* Add Task button */
+.addbtn {
+    padding: 10px 15px;
+    background: #4a8cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.addbtn:hover {
+    background: #3b73d4;
+}
+
+/* UL styling */
+.ulele {
+    padding: 0;
+    margin: 0;
+    list-style: none;  /* removes bullet symbols */
+}
+
+/* LI items */
+.listele {
+    background: #f6f6f6;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Task text */
+.task-content {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Delete button */
+.deletebtn {
+    background: #ff4d4d;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    /* width: 10px; */
+    font-size: 19px;
+}
+
+.deletebtn:hover {
+    background: #d93636;
+}
